@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faAngleLeft, faAngleRight, faCalendarAlt, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueTheMask from "vue-the-mask";
 
 Vue.use(VueTheMask);
 
-library.add(faAngleLeft, faAngleRight, faCalendarAlt, faCode)
+library.add(faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -6,8 +6,17 @@
         :value="currentDay"
         @typed="inputChangeValue"
         mask="##/##/####"
+        :borderColor="textColor"
+        :backgroundColor="backgroundColor"
+        :textColor="textColor"
       />
-      <div class="star-datepicker-button-wrapper" @click="toggle = !toggle">
+      <div
+        class="star-datepicker-button-wrapper"
+        :style="
+          `background: ${textColor}; color: ${backgroundColor}; border: 2px groove ${textColor};`
+        "
+        @click="toggle = !toggle"
+      >
         <font-awesome-icon icon="calendar-alt" class="star-datepicker-button" />
       </div>
     </div>
@@ -90,7 +99,6 @@
 
 <script>
 import Input from "../Input/Input";
-// import identifier from "../../core/identifier";
 export default {
   name: "Datepicker",
   components: {
@@ -281,11 +289,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(166, 172, 205);
-  background: rgb(41, 45, 62);
   height: auto;
   width: 60px;
-  border: 2px groove rgb(41, 45, 62);
   position: relative;
   left: -25px;
   border-radius: 14px;
