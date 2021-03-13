@@ -26,5 +26,5 @@ const Template = (args, { argTypes }) => ({
 
 export const Basic = Template.bind({});
 Basic.args = {
-  value: new Date(1997, 6, 6)
+  value: new Date()
 };
