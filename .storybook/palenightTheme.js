@@ -1,10 +1,11 @@
 import { create } from '@storybook/theming';
+import logo from "../src/assets/star-components.svg";
 
 export default create({
   base: 'dark',
   brandTitle: 'My custom storybook',
   brandUrl: 'https://google.com',
-  brandImage: 'https://placehold.it/350x150',
+  brandImage: logo,
   colorPrimary: '#A6ACCD',
   colorSecondary: '#414863',
 
@@ -12,7 +13,7 @@ export default create({
   appBg: '#292D3E',
   appContentBg: '#292D3E',
   appBorderColor: '#717CB470',
-  appBorderRadius: 4,
+  appBorderRadius: 24,
   
   // Toolbar default and active colors
   barTextColor: '#202331',
@@ -27,7 +28,7 @@ export default create({
   inputBg: '#292D3E',
   inputBorder: 'rgba(0,0,0,.3)',
   inputTextColor: '#A6ACCD',
-  inputBorderRadius: 4,
+  inputBorderRadius: 8,
   
   // Typography
   fontBase: '"Open Sans", sans-serif',

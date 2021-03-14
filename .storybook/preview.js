@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueTheMask from "vue-the-mask";
+import VModal from "vue-js-modal";
 
 Vue.use(VueTheMask);
+Vue.use(VModal, { dialog: true, dynamic: true, injectModalsContainer: true });
 
-library.add(faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode)
+library.add(faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCaretDown, faCaretUp, faCode)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
