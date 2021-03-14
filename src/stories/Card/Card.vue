@@ -33,8 +33,6 @@ export default {
 </script>
 
 <style scoped>
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
-
 .star-card-wrapper {
   border-radius: 14px;
   padding: 10px;

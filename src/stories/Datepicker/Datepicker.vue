@@ -273,8 +273,6 @@ export default {
 };
 </script>
 <style scoped>
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
-
 .star-datepicker-wrapper {
   width: 100%;
   height: 100%;
