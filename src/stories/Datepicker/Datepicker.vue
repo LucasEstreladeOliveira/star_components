@@ -98,7 +98,7 @@
 </template>
 
 <script>
-import Input from "../Input/Input";
+import Input from "../Input/Input.vue";
 export default {
   name: "Datepicker",
   components: {
