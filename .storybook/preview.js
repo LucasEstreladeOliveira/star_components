@@ -4,6 +4,7 @@ import { faAngleLeft, faAngleRight, faCalendarAlt, faTimesCircle, faCode, faCare
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueTheMask from "vue-the-mask";
 import VModal from "vue-js-modal";
+import "../src/globalStyles.css";
 
 Vue.use(VueTheMask);
 Vue.use(VModal, { dialog: true, dynamic: true, injectModalsContainer: true });

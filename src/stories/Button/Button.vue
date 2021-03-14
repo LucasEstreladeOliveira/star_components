@@ -57,8 +57,6 @@ export default {
 };
 </script>
 <style scoped>
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
-
 .star-button {
   font-family: "Fira Code", Fira Code;
   font-weight: 700;
